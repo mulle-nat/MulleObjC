@@ -27,7 +27,7 @@ jobs:
       run: mulle-sde fetch 
       
     - name: Mulle-SDE Craft
-      run: mulle-sde test --${BUILD_TYPE:-release}
+      run: mulle-sde craft --${BUILD_TYPE:-release}
 
     - name: Mulle-SDE Test
       run: mulle-sde test
