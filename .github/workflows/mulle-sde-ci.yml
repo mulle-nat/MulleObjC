@@ -16,8 +16,9 @@ jobs:
     steps:
     - uses: actions/checkout@v2
 
-    - uses: $MULLE_SDE_GITHUB_CI_VENDOR/github-ci@v1
-
+    - uses: mulle-sde/github-ci@v1
+      if: ${{ secrets.MULLE_SDE_GITHUB_CI_VENDOR }} = "" || ${{ secrets.MULLE_SDE_GITHUB_CI_VENDOR }} = "mulle-sde"
+       
     - name: Add to path
       run:  echo "$HOME/bin" >> $GITHUB_PATH
 
