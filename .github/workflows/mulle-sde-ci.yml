@@ -4,7 +4,6 @@ on: [push]
 
 env:
   BUILD_TYPE: release
-  MULLE_SDE_GITHUB_CI_VENDOR: ${{ secrets.MULLE_SDE_GITHUB_CI_VENDOR }}
 
 jobs:
   build:
@@ -17,7 +16,9 @@ jobs:
     - uses: actions/checkout@v2
 
     - uses: mulle-sde/github-ci@v1
-      if: ${{ MULLE_SDE_GITHUB_CI_VENDOR }} = "" || ${{ MULLE_SDE_GITHUB_CI_VENDOR }} = "mulle-sde"
+      env: 
+       MULLE_SDE_GITHUB_CI_VENDOR: ${{ secrets.MULLE_SDE_GITHUB_CI_VENDOR }}
+      if: env.MULLE_SDE_GITHUB_CI_VENDOR = "" || env.MULLE_SDE_GITHUB_CI_VENDOR = "mulle-sde"
        
     - name: Add to path
       run:  echo "$HOME/bin" >> $GITHUB_PATH
