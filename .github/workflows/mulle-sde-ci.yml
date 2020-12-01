@@ -4,6 +4,7 @@ on: [push]
 
 env:
   BUILD_TYPE: release
+  MULLE_SDE_GITHUB_CI_VENDOR: ${{ secrets.MULLE_SDE_GITHUB_CI_VENDOR }}
 
 jobs:
   build:
@@ -15,7 +16,7 @@ jobs:
     steps:
     - uses: actions/checkout@v2
 
-    - uses: ${{ secrets.MULLE_SDE_GITHUB_CI_VENDOR }}/github-ci@v1
+    - uses: ${{ MULLE_SDE_GITHUB_CI_VENDOR }}/github-ci@v1
 
     - name: Add to path
       run:  echo "$HOME/bin" >> $GITHUB_PATH
