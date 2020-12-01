@@ -25,7 +25,7 @@ jobs:
        MULLE_SDE_GITHUB_CI_VENDOR: ${{ secrets.MULLE_SDE_GITHUB_CI_VENDOR }}
       if: env.MULLE_SDE_GITHUB_CI_VENDOR == 'mulle-objc'
 
-    - uses: env.MULLE_SDE_GITHUB_CI_VENDOR/github-ci@v1
+    - uses: MulleFoundation/github-ci@v1
       env: 
        MULLE_SDE_GITHUB_CI_VENDOR: ${{ secrets.MULLE_SDE_GITHUB_CI_VENDOR }}
       if: env.MULLE_SDE_GITHUB_CI_VENDOR == 'MulleFoundation'
