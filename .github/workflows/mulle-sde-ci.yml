@@ -5,7 +5,8 @@ on: [push]
 env:
   BUILD_TYPE: release
   MULLE_SDE_GITHUB_CI_VENDOR: ${{ secrets.MULLE_SDE_GITHUB_CI_VENDOR }}
-  OTHER_PROJECTS: "mulle-objc/mulle-objc-developer;"
+  OTHER_PROJECTS: "mulle-objc/mulle-objc-developer;
+mulle-c/mulle-c-developer;"
 
 jobs:
   build:
