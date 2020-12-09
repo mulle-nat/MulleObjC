@@ -1,2 +1,10 @@
-- name: Include Guards Check
-  uses: sbeyer/include-guards-check-action@v1.0.0
+name: Test #include guards
+
+on: [push]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Include Guards Check
+        uses: sbeyer/include-guards-check-action@v1.0.0
