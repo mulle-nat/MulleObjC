@@ -1,4 +1,4 @@
-# MulleObjC
+# Playground
 
 💎 A collection of Objective-C root classes for mulle-objc
 
