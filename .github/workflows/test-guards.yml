@@ -1,4 +1,4 @@
-name: Test #include guards
+name: '#include guards'
 
 on: [push]
 
