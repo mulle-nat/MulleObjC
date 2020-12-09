@@ -1,0 +1,30 @@
+{
+  "name": "MulleObjC",
+  "version": "0.17.1",
+  "description": "MulleObjC class library",
+  "main": "index.js",
+  "scripts": {
+    "test": "mulle-sde test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/mulle-nat/MulleObjC.git"
+  },
+  "keywords": [
+    "objective-c",
+    "mulle-objc"
+  ],
+  "author": "Nat! <nat@mulle-kybernetik.de> (mulle-kybernetik.com)",
+  "license": "BSD3",
+  "readmeFilename": "README.md",
+  "devDependencies": {
+    "mulle-sde-developer": "~0.43.0",
+  },
+  "dependencies": {
+    "mulle-objc-runtime": "~0.17.0",
+    "mulle-objc-list": "~0.17.0",
+    "mulle-container": "~3.0.0"
+  },
+  "peerDependencies": {
+  }
+}
