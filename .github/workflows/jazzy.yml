@@ -1,0 +1,10 @@
+name: 'Jazzy dox'
+
+on: [push]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Publish Jazzy Docs
+        uses: Steven0351/publish-jazzy-docs@v1.1.2
