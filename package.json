@@ -21,7 +21,7 @@
   },
   "dependencies": {
     "mulle-objc-runtime": "~0.17.0",
-    "mulle-objc-list": "~0.17.0",
+    "mulle-objc-list": "github:mulle-objc/mulle-objc-list",
     "mulle-container": "~3.0.0"
   },
   "peerDependencies": {
