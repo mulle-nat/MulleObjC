@@ -20,7 +20,7 @@
     "mulle-sde-developer": "~0.43.0"
   },
   "dependencies": {
-    "mulle-objc-runtime": "git://github.com/mulle-objc/mulle-objc-list#semver:latest",
+    "mulle-objc-runtime": "git://github.com/mulle-objc/mulle-objc-runtime#semver:latest",
     "mulle-objc-list": "git://github.com/mulle-objc/mulle-objc-list#~0.18.0",
     "mulle-container": "~3.0.0"
   },
