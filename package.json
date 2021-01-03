@@ -21,7 +21,7 @@
   },
   "dependencies": {
     "mulle-objc-runtime": "https://github.com/mulle-objc/MulleObjC/archive/latest.tar.gz#semver:^0.19.0",
-    "mulle-objc-list": "git://github.com/mulle-objc/mulle-objc-list#~0.18.0",
+    "mulle-objc-list": "git://github.com/mulle-objc/mulle-objc-list#sermver:latest",
     "mulle-container": "~3.0.0"
   },
   "peerDependencies": {
