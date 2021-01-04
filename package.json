@@ -19,7 +19,7 @@
       "mulle-thread" : "git://github.com/mulle-concurrent/mulle-thread#semver:^4.2.3",
       "mintomic" : "git://github.com/mulle-concurrent/mintomic#semver:*",
       "mulle-vararg" : "git://github.com/mulle-c/mulle-vararg#semver:^1.1.0",
-      "mulle-stacktrace" : "git://github.com/mulle-core/mulle-stacktrace#semver:^0.2.2",
+      "mulle-stacktrace" : "git://github.com/mulle-core/mulle-stacktrace#semver:^0.15",
       "mulle-dlfcn" : "git://github.com/mulle-core/mulle-dlfcn#semver:^0.0.6",
       "mulle-atinit" : "git://github.com/mulle-core/mulle-atinit#semver:^0.0.5",
       "mulle-atexit" : "git://github.com/mulle-core/mulle-atexit#semver:^0.0.8",
