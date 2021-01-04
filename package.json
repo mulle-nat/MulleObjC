@@ -22,7 +22,7 @@
       "mulle-stacktrace" : "git://github.com/mulle-core/mulle-stacktrace#semver:^0.2.2",
       "mulle-dlfcn" : "git://github.com/mulle-core/mulle-dlfcn#semver:^0.0.6",
       "mulle-atinit" : "git://github.com/mulle-core/mulle-atinit#semver:^0.0.5",
-      "mulle-atexit" : "git://github.com/mulle-core/mulle-atexit#semver:^0.0.8",
+      "mulle-atexit" : "git://github.com/mulle-core/mulle-atexit#semver:^0.15",
       "mulle-data" : "git://github.com/mulle-c/mulle-data#semver:^0.0.1",
       "farmhash-c" : "git://github.com/mulle-c/farmhash-c#semver:^0.0.1",
       "mulle-container" : "git://github.com/mulle-c/mulle-container#semver:^4.0.0",
